@@ -1,3 +1,5 @@
 # food_delivery_app
 
-A new Flutter project.
+This is a food Delivery app create by using Flutter for the frontend part.
+
+
