@@ -1,3 +1,4 @@
+import 'package:food_delivery_app/utils/dimesions.dart';
 import 'package:food_delivery_app/widgets/big_text.dart';
 import 'package:food_delivery_app/widgets/icon_text_widget.dart';
 import 'package:food_delivery_app/widgets/small_text.dart';
@@ -57,7 +58,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
           )
         ),
         Container(
-          height: 900,
+          height: 1000,
           child: ListView.builder(
               physics: NeverScrollableScrollPhysics(),
               shrinkWrap: true,
@@ -68,8 +69,8 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                   child: Row(
                     children: [
                       Container(
-                        width: 100,
-                        height: 100,
+                        width: 90,
+                        height: 90,
                         margin: EdgeInsets.only(bottom: 4),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
@@ -78,7 +79,7 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                       ),
                       Container(
                         height: 100,
-                        width: 200,
+                        width: 260,
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
                           color: Colors.white,
@@ -114,7 +115,6 @@ class _FoodPageBodyState extends State<FoodPageBody> {
                                       color: AppColors.titleColor,
                                       iconColor: Colors.blueAccent
                                   ),
-                                  SizedBox(width: 10,),
                                 ],
                               )
                             ],
