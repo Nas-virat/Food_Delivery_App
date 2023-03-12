@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/widgets/app_icon.dart';
 import 'package:food_delivery_app/widgets/big_text.dart';
+import 'package:food_delivery_app/widgets/expandable_text.dart';
 
 import '../../utils/colors.dart';
 import '../../widgets/icon_text_widget.dart';
@@ -107,7 +108,13 @@ class PopularFoodDetail extends StatelessWidget {
                       SizedBox(height: 10,),
                       BigText(text: "Introduce",color: Colors.black),
                       SizedBox(height: 10,),
-
+                      Expanded(
+                        child: SingleChildScrollView(
+                          child:  ExpandableTextWidget(
+                            text: 'chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is deliciouschinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is deliciouschinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious,chinese food is delicious chinese food is delicious chinese food is delicious chinese food is delicious',)
+                          ,
+                        )
+                      )
                     ],
                   ),
                 ),
