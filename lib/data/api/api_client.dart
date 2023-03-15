@@ -12,7 +12,7 @@ class ApiClient extends GetConnect implements GetxService {
 
     _mainHeaders = {
       'Content-type': 'application/json; charset=UTF-8',
-      'Authorization': 'Bearer $token',
+      //'Authorization': 'Bearer $token',
     };
   }
 
