@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/pages/food/popular_food__deatil.dart';
 import 'package:food_delivery_app/pages/food/recommanded_food_detail.dart';
 
-import 'pages/home/main_food_page.dart';
+import '/helper/dependecies.dart' as depedencies;
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await depedencies.init();
   runApp(const MainApp());
 }
 
