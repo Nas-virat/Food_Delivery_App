@@ -1,7 +1,7 @@
 # food_delivery_app
 
 This is a Food Delivery app create by using Flutter for the frontend part.
-![Food Delivery App][./assets/img/page1.png]
+![][doc/page1.png]
 
 Learn from the tutorial [dbestech youtube](https://www.youtube.com/watch?v=7dAt-JMSCVQ) Flutter E-commerce App With Backend | Food Delivery App
 
