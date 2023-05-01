@@ -1,7 +1,7 @@
 # food_delivery_app
 
 This is a Food Delivery app create by using Flutter for the frontend part.
-![](doc/page1.png)
+<img src="doc/page1.png" width="200" height="400">
 
 Learn from the tutorial [dbestech youtube](https://www.youtube.com/watch?v=7dAt-JMSCVQ) Flutter E-commerce App With Backend | Food Delivery App
 
